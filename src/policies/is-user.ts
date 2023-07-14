@@ -1,4 +1,6 @@
-import utils from "@strapi/utils"
+const utils = require("@strapi/utils")
+
+const { NotFoundError } = utils.errors
 
 export default async (policyContext, config, { strapi }) => {
     const userId = policyContext.state.user.id
@@ -7,5 +9,5 @@ export default async (policyContext, config, { strapi }) => {
         return true
     }
 
-    throw new utils.errors.NotFoundError("User does not exist")
+    throw new NotFoundError("User does not exist")
 }
