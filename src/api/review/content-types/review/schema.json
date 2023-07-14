@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reviews",
+  "info": {
+    "singularName": "review",
+    "pluralName": "reviews",
+    "displayName": "review"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "title",
+      "required": true,
+      "unique": true
+    },
+    "rating": {
+      "type": "integer",
+      "default": 1,
+      "required": true,
+      "max": 10,
+      "min": 1
+    },
+    "description": {
+      "type": "richtext",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget commodo magna, ac posuere ipsum. Donec commodo maximus sapien id dapibus. Duis a enim nisl. Praesent fringilla suscipit maximus. Maecenas metus metus, scelerisque nec rutrum vitae, venenatis sed sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec vulputate porta ligula, id elementum ante egestas nec. Suspendisse eu sagittis nibh. Sed ullamcorper orci non lectus efficitur, sed dignissim ex ullamcorper.",
+      "required": true
+    }
+  }
+}
