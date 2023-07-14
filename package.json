@@ -1,5 +1,5 @@
 {
-  "name": "demo-strapi-graphql-backend",
+  "name": "demo-strapi-rest-backend",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
