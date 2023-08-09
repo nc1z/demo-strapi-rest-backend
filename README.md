@@ -2,6 +2,11 @@
 
 This repository contains a Strapi backend implementation using REST endpoints. It provides a straightforward and familiar RESTful API for managing and accessing resources.
 
+Examples:
+- REST endpoints
+- Policies
+- Welcome Email (User Creation lifecycle)
+
 ## Quickstart
 
 ### Register
